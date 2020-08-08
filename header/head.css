@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(1, 1, 77);
+  height: 100px;
+  align-items: center;
+}
+.head1 {
+  margin: 40px;
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+.head2 {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  font-weight: bold;
+  color: white;
+}
+.head3 {
+  margin: 40px;
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+}
