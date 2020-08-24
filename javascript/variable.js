@@ -27,29 +27,29 @@ const maxNumber = 5;
 // int
 const count = 17;
 const size = 17.1;
-// console.log(`value: ${count}, type: ${typeof count}`);
+console.log(`value: ${count}, type: ${typeof count}`);
 
 // string
 const char = "c";
 const brendan = "brendan";
 const greeting = "hello" + brendan;
-// console.log("value: ${greteting}, type: ${typeof greeting}");
+console.log("value: ${greteting}, type: ${typeof greeting}");
 
 // boolean
 // false: 0, null,. undefined, NaN, ''
 // true: any other value
 const canRead = true;
 const test = 3 < 1;
-// console.log(`value:${canRead}, type: ${typeof canRead}`);
-// console.log(`value: ${test}, type: ${typeof test}`);
+console.log(`value:${canRead}, type: ${typeof canRead}`);
+console.log(`value: ${test}, type: ${typeof test}`);
 
 // null
 let nothing = null;
-// console.log(`value: ${nothing}, type: ${typeof nothing}`);
+console.log(`value: ${nothing}, type: ${typeof nothing}`);
 
 // undefined
 let x;
-// console.log(`value: ${x}, type: ${typeof x}`);
+console.log(`value: ${x}, type: ${typeof x}`);
 
 // symbol, create unique identifiers for objects
 const symbol1 = Symbol("id");
@@ -57,7 +57,7 @@ const symbol2 = Symbol("id");
 // console.log(symbol1 == symbol2); // false
 const gSymbol1 = Symbol.for("id");
 const gSymbol2 = Symbol.for("id");
-// console.log(gSymbol1 == gSymbol2); // true
+console.log(gSymbol1 == gSymbol2); // true
 console.log(`value: ${gSymbol1.description}, type: ${typeof gSymbol1}`);
 
 // object, real-life object, data structure
